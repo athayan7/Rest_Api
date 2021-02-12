@@ -34,7 +34,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[Vehikl](https://vehikl.com/)**
 - **[Tighten Co.](https://tighten.co)**
 - **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
+- **[64 Robots](https://64robots.com)** 
 - **[Cubet Techno Labs](https://cubettech.com)**
 - **[Cyber-Duck](https://cyber-duck.co.uk)**
 - **[British Software Development](https://www.britishsoftware.co)**
@@ -76,3 +76,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Running Project TEST API
+1. Buka XAMPP Control Panel
+2. Start Apache dan MySql
+3. Buka Visual Studio Code 
+4. Open Project yang telah di unduh.
+5. lalu pada kolom terminal Ketik " php artisan migrate " 
+6. Setelah selesai ketikan "php artisan seed"
+7. Kemudia Ketikan " php artisan serve"
+8. Buka Postman untuk mengecek API
+9. copy url berikut : 
+    http://127.0.0.1:8000/api/article = untuk GET data 
+    http://127.0.0.1:8000/api/article/1 = untuk GET data sesuai ID
+    http://127.0.0.1:8000/api/article/post = untuk POST data
+    http://127.0.0.1:8000/api/article/update/1 = Untuk EDIT data
+    http://127.0.0.1:8000/api/article/delete/1 = untuk delete data
+
